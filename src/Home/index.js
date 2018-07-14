@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 
 import Header from "./Header";
+import Nav from "./Nav";
 
 class Home extends Component {
   render(){
@@ -12,6 +13,7 @@ class Home extends Component {
           Aviasales
         </Helmet>
         <Header />
+        <Nav />
       </div>
     )
   }

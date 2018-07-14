@@ -125,21 +125,21 @@ class Header extends Component {
               </HeaderSecontTitle>
 
               <div className="col-xs-12 col-sm-5 col-sm-offset-1 col-xl-offset-1 col-xl-2 no-padding">
-                <SetPlace withMoveBtn={true} shortCut={`MOW`} dValue={`Москва`} pholder={`Откуда`} />
+                <SetPlace withMoveBtn={true} shortCut={`MOW`} defaultValue={`Москва`} placeholder={`Откуда`} />
               </div>
 
               <div className="col-xs-12 col-sm-5 col-xl-2 no-padding">
-                <SetPlace withMoveBtn={false} pholder={`Город прибытия`}/>
+                <SetPlace withMoveBtn={false} placeholder={`Город прибытия`}/>
               </div>
               <div className="col-xs-12 col-sm-5 col-sm-offset-1 col-xl-4 col-xl-offset-0 no-padding">
-                <SetDate pholder={`Туда`}/>
-                <SetDate pholder={`Обратно`}/>
+                <SetDate placeholder={`Туда`}/>
+                <SetDate placeholder={`Обратно`}/>
               </div>
               <div className="col-xs-12 col-sm-5 col-xl-2 no-padding">
                 <SetParams />
               </div>
               <div className="col-xs-12 col-sm-6 col-sm-offset-3 col-xl-4 col-xl-offset-4">
-                <HeaderActionButton Height={`56px`}>
+                <HeaderActionButton height={`56px`}>
                   Найти билеты
                   <AeroImg src={aero} />
                 </HeaderActionButton>

@@ -24,12 +24,12 @@ export const PlaceInput = styled.input`
   border-style: none;
   outline: none;
   padding-right: 5px;
-  width: ${props => props.Width};
+  width: ${props => props.width};
 `;
 
 export const ActionButton = styled.button`
   width: 100%;
-  height: ${props => props.Height};
+  height: ${props => props.height};
   border-radius: 4px;
   border-width: 0;
   background-color: #FF9241;

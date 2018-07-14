@@ -26,7 +26,7 @@ class SetDate extends Component {
   render() {
     return(
       <SetDateInput>
-        <PlaceInput placeholder={this.props.pholder} Width={`calc(100% - 25px)`} />
+        <PlaceInput placeholder={this.props.placeholder} width={`calc(100% - 25px)`} />
         <img src={calendar} />
       </SetDateInput>
     );
