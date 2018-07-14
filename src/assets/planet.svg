@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg25"
+   version="1.1"
+   fill="none"
+   viewBox="0 0 80 80"
+   height="80"
+   width="80">
+  <metadata
+     id="metadata29">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g4"
+     filter="url(#filter0_d)">
+    <path
+       id="path2"
+       fill="white"
+       transform="translate(16 12)"
+       d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24Z"
+       clip-rule="evenodd"
+       fill-rule="evenodd" />
+  </g>
+  <path
+     id="path6"
+     fill="#A0B0B9"
+     transform="translate(29 25)"
+     d="M0 11C0 4.92798 4.91699 0 10.989 0C17.072 0 22 4.92798 22 11C22 17.072 17.072 22 10.989 22C4.91699 22 0 17.072 0 11ZM15.3669 6.60004H18.6119C17.556 4.78503 15.873 3.37701 13.849 2.68402C14.509 3.90503 15.015 5.22504 15.3669 6.60004ZM11 2.24402C11.9131 3.56403 12.6281 5.02704 13.1011 6.60004H8.89905C9.37207 5.02704 10.087 3.56403 11 2.24402ZM2.19995 11C2.19995 11.759 2.30994 12.496 2.48596 13.2H6.20398C6.11597 12.474 6.04993 11.748 6.04993 11C6.04993 10.252 6.11597 9.526 6.20398 8.79999H2.48596C2.30994 9.50397 2.19995 10.241 2.19995 11ZM3.38794 15.4H6.63293C6.98499 16.775 7.49097 18.095 8.15088 19.316C6.12695 18.623 4.44397 17.226 3.38794 15.4ZM3.38794 6.60004H6.63293C6.98499 5.22504 7.49097 3.90503 8.15088 2.68402C6.12695 3.37701 4.44397 4.77405 3.38794 6.60004ZM11 19.756C10.087 18.436 9.37207 16.973 8.89905 15.4H13.1011C12.6281 16.973 11.9131 18.436 11 19.756ZM8.25 11C8.25 11.748 8.32703 12.474 8.42603 13.2H13.574C13.673 12.474 13.75 11.748 13.75 11C13.75 10.252 13.673 9.51501 13.574 8.79999H8.42603C8.32703 9.51501 8.25 10.252 8.25 11ZM13.849 19.316C14.509 18.095 15.015 16.775 15.3669 15.4H18.6119C17.556 17.215 15.873 18.623 13.849 19.316ZM15.9501 11C15.9501 11.748 15.884 12.474 15.796 13.2H19.514C19.6901 12.496 19.8 11.759 19.8 11C19.8 10.241 19.6901 9.50397 19.514 8.79999H15.796C15.884 9.526 15.9501 10.252 15.9501 11Z"
+     clip-rule="evenodd"
+     fill-rule="evenodd" />
+  <defs
+     id="defs23">
+    <filter
+       color-interpolation-filters="sRGB"
+       filterUnits="userSpaceOnUse"
+       height="80"
+       width="80"
+       y="0"
+       x="0"
+       id="filter0_d">
+      <feFlood
+         id="feFlood8"
+         result="BackgroundImageFix"
+         flood-opacity="0" />
+      <feColorMatrix
+         id="feColorMatrix10"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"
+         type="matrix"
+         in="SourceAlpha" />
+      <feOffset
+         id="feOffset12"
+         dy="4" />
+      <feGaussianBlur
+         id="feGaussianBlur14"
+         stdDeviation="8" />
+      <feColorMatrix
+         id="feColorMatrix16"
+         values="0 0 0 0 0.290196 0 0 0 0 0.290196 0 0 0 0 0.290196 0 0 0 0.12 0"
+         type="matrix" />
+      <feBlend
+         id="feBlend18"
+         result="effect1_dropShadow"
+         in2="BackgroundImageFix"
+         mode="normal" />
+      <feBlend
+         id="feBlend20"
+         result="shape"
+         in2="effect1_dropShadow"
+         in="SourceGraphic"
+         mode="normal" />
+    </filter>
+  </defs>
+</svg>

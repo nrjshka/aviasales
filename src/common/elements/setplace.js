@@ -30,7 +30,7 @@ class SetPlace extends Component {
     if (this.props.withMoveBtn) {      
       return (
         <PlaceInputWithMoveBtn>
-          <PlaceInput defaultValue={this.props.dValue} Width={`calc(100% - 80px)`} placeholder={this.props.pholder}/>
+          <PlaceInput defaultValue={this.props.defaultValue} width={`calc(100% - 80px)`} placeholder={this.props.placeholder}/>
           <span>{this.props.shortCut}</span> 
           <img src={arrow}/>            
         </PlaceInputWithMoveBtn>     
@@ -38,7 +38,7 @@ class SetPlace extends Component {
     }else {
       return (
         <PlaceInputWithOutMoveBtn>
-          <PlaceInput defaultValue={this.props.dValue} Width={`100%`} placeholder={this.props.pholder} />
+          <PlaceInput defaultValue={this.props.defaultValue} width={`100%`} placeholder={this.props.placeholder} />
         </PlaceInputWithOutMoveBtn>
       );
     }
