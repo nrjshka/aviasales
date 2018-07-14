@@ -14,11 +14,26 @@ export const HeaderInput = styled.div`
   box-sizing: border-box;
   font-size: 16px;
   line-height: 20px;
+
+  * {
+    vertical-align: top;
+  }
 `;
 
 export const PlaceInput = styled.input`
   border-style: none;
   outline: none;
   padding-right: 5px;
-  width: ${props => props.isLong ? "270px" : "190px"};
+  width: ${props => props.Width};
+`;
+
+export const ActionButton = styled.button`
+  width: 100%;
+  height: ${props => props.Height};
+  border-radius: 4px;
+  border-width: 0;
+  background-color: #FF9241;
+  color: #fff;
+  font-size: 24px;
+  line-height: 28px;
 `;
