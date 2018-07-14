@@ -9,20 +9,27 @@ import Home from "./Home";
 
 addLocaleData(ruLocaleData);
 
+const PageWrapper = styled.div`
+  // Adding Roboto font 
+  * {
+    font-family: 'Roboto', sans-serif;
+  }
+`;
+
 class App extends Component {
   render() {      
     return (
       <IntlProvider locale="ru">
-        <div>
+        <PageWrapper>
           <Helmet>
-            Aviasosales
+            Aviasales
           </Helmet>
           <BrowserRouter>
             <Switch>
               <Route exact path="/" component={Home} />
             </Switch>
           </BrowserRouter>
-        </div>          
+        </PageWrapper>          
       </IntlProvider>
         );
     }
