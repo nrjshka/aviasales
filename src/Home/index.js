@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 import Header from "./Header";
 import Nav from "./Nav";
+import CityContainer from "./CityContainer";
 
 class Home extends Component {
   render(){
@@ -14,6 +15,7 @@ class Home extends Component {
         </Helmet>
         <Header />
         <Nav />
+        <CityContainer />
       </div>
     )
   }

@@ -35,7 +35,7 @@ const TextNav = styled.div`
 
   @media only screen and (min-width: 576px) {
     margin-top: 20px;
-    margin-bottom: 56px;
+    margin-bottom: 51px;
     font-size: 24px;
     line-height: 36px;
   }
