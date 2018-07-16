@@ -18,12 +18,25 @@ import spanish from "../../assets/spanish.svg";
 
 import CityCard from "./Card";
 
+const MainWrapper = styled.main`
+  @media only screen and (max-width: 767px) {
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .col-xs-12 {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+`;
+
 class CityContainer extends Component {
   render(){
     return(
-      <main>
+      <MainWrapper>
         <div className="container">
-          <div className="row">
+          <div className="row ">
             <div className="col-xs-12 col-md-10 col-md-offset-1 row">
               <div className="col-xs-12 col-xl-6">
                 <CityCard 
@@ -94,7 +107,7 @@ class CityContainer extends Component {
             </div>
           </div>
         </div>
-      </main>
+      </MainWrapper>
     )
   }
 }
